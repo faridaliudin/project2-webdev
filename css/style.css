@@ -319,3 +319,24 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .img-hero {
+        display: none;
+    }
+    #middle-card {
+        margin: 10px 0;
+    }
+    #working-space {
+        display: none;
+    }
+    .contact-desc {
+        font-size: 30px !important;
+    }
+    #ap {
+        font-size: 25px;
+    }
+    .ft {
+        font-size: 15px;
+    }
+}
