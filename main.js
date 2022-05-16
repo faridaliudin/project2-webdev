@@ -38,7 +38,7 @@ function addJSONtoLocalStorage() {
         return;
     }
 
-    $.getJSON("/azizdental/settings.json",
+    $.getJSON("settings.json",
         function (data) {
             console.info(data);
             localStorage.setItem("data", JSON.stringify(data));
