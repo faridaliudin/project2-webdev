@@ -231,6 +231,10 @@ h2 {
     margin: 19px 0 14px 0;
 }
 
+.contact-desc {
+    text-align: center;
+}
+
 .kontak a {
     font-size: 16px;
     font-weight: normal;
@@ -322,9 +326,9 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
-    * {
+    /* * {
         width: 100%;
-    }
+    } */
     .img-doctor {
       display: none;
     }
@@ -343,12 +347,15 @@ footer a {
     .ft {
       font-size: 15px;
     }
-  }
+    .card-contact {
+        margin-top: 20px;
+    }
+}
 
 @media only screen and (max-width: 835px) {
-    * {
+    /* * {
         width: 100%;
-    }
+    } */
     #hero {
         background: linear-gradient(160deg, var(--pr-color), #000);
          background-color: var(--pr-color);
@@ -383,12 +390,19 @@ footer a {
 }
 
 @media only screen and (max-width: 576px) {
-    * {
+    /* * {
         width: 100%;
+    } */
+    .card-contact {
+        margin-top: 20px;
     }
 }
 
 @media (min-width: 992px) {
     .workingspace {
         text-align: left;
+    }
+    .contact-desc {
+        text-align: left;
+    }
 }
