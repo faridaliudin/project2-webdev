@@ -163,6 +163,7 @@ h2 {
 
 .workingspace {
     margin-top: 100px;
+    text-align: center;
 }
 
 .img-workingspace {
@@ -364,9 +365,6 @@ footer a {
     .hero-tagline p {
         font-size: 13px;
     }
-    #working-space {
-        display: none;
-    }
     .button-lg-primary {
         height: 50px;
     }
@@ -388,4 +386,9 @@ footer a {
     * {
         width: 100%;
     }
+}
+
+@media (min-width: 992px) {
+    .workingspace {
+        text-align: left;
 }
