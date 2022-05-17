@@ -321,6 +321,9 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
+    * {
+        width: 100%;
+    }
     .img-doctor {
       display: none;
     }
@@ -342,6 +345,9 @@ footer a {
   }
 
 @media only screen and (max-width: 835px) {
+    * {
+        width: 100%;
+    }
     #hero {
         background: linear-gradient(160deg, var(--pr-color), #000);
          background-color: var(--pr-color);
@@ -375,5 +381,11 @@ footer a {
     }
     .card-layanan p {
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    * {
+        width: 100%;
     }
 }
